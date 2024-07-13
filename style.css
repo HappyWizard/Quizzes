@@ -1,0 +1,145 @@
+body{
+      background-image:url("cherryBlossom.gif");
+      background-repeat:no-repeat;
+      background-size:cover;
+      position:relative;
+      width:100%;
+      height:100px;
+}
+.game-container{
+      position:absolute;
+      left: 50%;
+      top: -50%;
+      /* height:100%; */
+      transform: translate(-50%, 0);
+      /* display:inline-block; */
+      background-color:white;
+      padding:50px;
+}
+.score{
+      font-family:"Caesar Dressing", cursive;
+      font-size:30px;
+}
+.question-container{
+      margin:20px auto;
+      display:flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      text-align: center;
+}
+.question{
+      font-family:"Caesar Dressing", cursive;
+      font-size:40px;
+}
+.user-typing-space{
+      font-family:"Caesar Dressing", cursive;
+      font-size:25px;
+}
+.user-typing-space::placeholder{
+      font-family:"Caesar Dressing", cursive;
+      font-size: 25px;
+      color: rgb(212, 169, 169);
+      text-align:center;
+}
+input{
+      padding:5px 10px;
+      text-align:center;
+}
+input[type=text]{
+      border: 2px solid rgb(52, 2, 13);
+      font-family:cursive;
+}
+input[type=text]:focus{
+      border-radius:20px;
+
+}
+.button-container{
+      display:flex;
+      justify-content: space-around;
+}
+.next-button,.hint-button{
+      font-family:"Caesar Dressing", cursive;
+      border-radius: 20px;
+      padding:10px 20px;
+      color:white;
+      font-size:20px;
+      border:none;
+      letter-spacing: 2px;
+      transition: all 2s linear infinite;
+}
+.next-button{
+      background-color: rgb(255, 0, 170);
+}
+.hint-button{
+      background-color: rgb(82, 46, 240);
+}
+.next-button:hover{
+      background-color:rgb(244, 6, 85);
+      color:black;
+}
+.hint-button:hover{
+      background-color:rgb(13, 82, 255);
+      color:black;
+}
+.hints-container,.failure-container,.goodbye-container,.shock-container{
+      position:fixed;
+      display:none;
+      justify-content: center;
+      top: 0px;
+      left:0px;
+      right:0px;
+      bottom:0px;
+      background-color:rgba(255, 255, 255,0.8);
+      /* opacity:0.4; */
+      z-index:50;
+      font-family: "Caesar Dressing",cursive;
+      font-size:50px;
+}
+
+.reaction-container-1{
+      position:fixed;
+      display:block;
+      background-image:url("memeReactions/goodbye.gif");
+      width:700px;
+      height:500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      /* opacity:1; */
+      margin:100px auto;
+      z-index:1000;
+}
+.reaction-container-2{
+      position:fixed;
+      display:block;
+      background-image:url("memeReactions/pullHair.gif");
+      width:700px;
+      height:500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin:100px auto;
+      z-index:200;
+}
+.reaction-container-3{
+      position:fixed;
+      display:block;
+      background-image:url("memeReactions/whatTheHell.gif");
+      width:700px;
+      height:500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin:100px auto;
+      z-index:100;
+}
+.reaction-container-4{
+      position:fixed;
+      display:block;
+      background-image:url("memeReactions/waitWhat.gif");
+      width:700px;
+      height:500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin:100px auto;
+      z-index:100;
+}
