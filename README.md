@@ -3,8 +3,12 @@
 # A quick quiz for K-Drama watchers 
 
 ## How to Play?
-1.Type in the name of the K-Drama
-2.Click on 'Next' to move to the next question
+1. Click on the provided link: https://happywizard.github.io/Quizzes/
+2. Type in the name of the K-Drama
+3. Click on 'Next' to move to the next question
+4. There's 77 Questions in total
+
+Pro Tip: The main issue with the game is the letter casing and, hyphens and spaces, the answer needs to be exactly right to move on to the next question. 
 
 I think you have 3 tries. On third try you lose if you get it wrong.
 
